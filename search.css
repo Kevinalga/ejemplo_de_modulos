@@ -1,0 +1,17 @@
+
+.search-bar {
+    display: flex;
+    box-shadow: 1px 1px 8px #0004;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-input {
+    font-family: inherit;
+    border: none;
+    flex: 1;
+}
+
+.search-btn {
+    background-color: #ddd;
+}

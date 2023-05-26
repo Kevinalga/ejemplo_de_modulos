@@ -1,0 +1,10 @@
+html {
+    font-family: system-ui;
+}
+
+.games-list {
+    padding-block: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
