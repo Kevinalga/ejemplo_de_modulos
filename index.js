@@ -7,7 +7,7 @@ const gamesList = document.createElement('div')
 gamesList.className = 'games-list'
 
 const searchBar = createSearchBar((searchValue) => {
-    gamesList.innerHTML = '' // esto es para eliminar todos los elementos de la lista de juegos
+    gamesList.innerHTML = '' // esto es para eliminar todos los elementos de la lista de juegos.
     games.forEach((game) => {
         if (game.name.includes(searchValue) || game.description.includes(searchValue)) {
             const gameCard = createCard(game)
@@ -15,6 +15,7 @@ const searchBar = createSearchBar((searchValue) => {
         }
     })
 })
+
 
 
 document.body.append(searchBar, gamesList)
